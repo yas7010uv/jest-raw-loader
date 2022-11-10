@@ -8,8 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
@@ -23,7 +22,6 @@
   "devDependencies": {
     "eslint": "8.25.0",
     "eslint-config-starstuff": "1.5.14",
-    "husky": "8.0.1",
     "jest": "28.1.3",
     "jest-runner-eslint": "1.1.0",
     "jest-runner-prettier": "1.0.0",
